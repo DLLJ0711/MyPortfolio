@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-responsive.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous"> -->
+    <title>Personal Resume</title>
+    <link href="styles/resume.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" charset="utf-8" />
+    <link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" -->
+        <!-- integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous"> -->
+    <title>About</title>
+    <link rel="stylesheet" href="navstyles.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <link rel="stylesheet" href="styles/about.css" />
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div style="background-color: rgb(88, 86, 81);"  class="nav-wrapper">
+                <div class="left-side" style="font-size: 20px;">
+                    
+                    <div class="nav-link-wrapper">
+                        <a href="index.html">Home</a>
+                    </div>
+
+                    <div class="nav-link-wrapper">
+                        <a href="about.html">About</a>
+                    </div> 
+
+                    <div class="nav-link-wrapper">
+                        <a href="myResume.html">Resume</a>
+                    </div> 
+                
+                </div>    
+                <div class="right-side" style="font-size: 25px;">
+                    <div class="brand">
+                        <div>DAVID MCFADDEN</div>
+                    </div>    
+                </div>
+            </div>
+        </header>
+        <div class="profile-content-wrapper" style="color: gray;">
+            <div>
+                <img src="unnamed.jpg" alt="">
+            </div>
+            <h1 style="color: gray;">Hi, and thank you for visiting my site.</h1>
+            <p>My name is David McFadden I am the father of 4 beautiful daughters and </p>
+            <p>a former active duty United States Marine starting off a brand new career in Web Developement.</p>
+            <p>I have dedicated myself to learning, understanding and attempting to master all the skills necessary to
+                become a great web developer.
+            </p>
+            <p>During my time in the Marine Corps I successfully and proudly, overcame the toughest of challenges such
+                as; combat deployments, time away from family, 19 hour days as a drill instructor, the constant demand
+                to be physical fit and the overall "sharpening" of the mind and spirit.
+            </p>
+            <p>Since starting my studies, I've applied that same focus, determination and dedication to honing my new
+                skills as a web developer.
+            </p>
+            <p>As I learn more and approach the finish line for achieving my certification goals, I am excited to begin
+                my career in Web Developement!
+            </p>
+            <p>Please feel free to fill the contact form below! Thank you!</p>
+        </div>
+        <div class="contact-title">
+            <h1 style="color: gray;">Contact Form</h1>
+        </div>
+        <div class="contact form">
+            <form id="contact-form" method="POST" netlify>
+                <input name="name" type="text" class="form-control" placeholder="Your Name" required />
+                <br />
+                <input name="email" type="text" class="form-control" placeholder="Your Email" required />
+                <br />
+                <input name="contact_number" type="text" class="form-control" placeholder="Contact number" />
+                <br />
+                <textarea name="message" class="form-control" placeholder="Messsage" cols="30" rows="4"></textarea>
+                <br />
+                <button type="sumbit" class="form-control submit" value="SEND MESSAGE">SEND MESSAGE</button>
+            </form>
+        </div>
+        <footer>
+            <div style="background-color: rgb(88, 86, 81);" class="nav-wrapper">
+                <div class="left-side" style="padding-top: 50px;">
+                    <div class="logo-nav-link-wrapper">
+                        <a href="https://www.facebook.com/david.mcfadden.58" target="_blank">
+                            <i class="fa fa-facebook-official" style="font-size:36px;"></i></a>
+                    </div>
+    
+                    <div class="logo-nav-link-wrapper">
+                        <a href="https://github.com/DLLJ0711" target="_blank">
+                            <i class="fa fa-github" style="font-size:36px"></i></a>
+                    </div>
+    
+                    <div class="logo-nav-link-wrapper">
+                        <a href="mailto:podll0711@gmail.com?subject=subject text" target="_blank">
+                            <i class="fa fa-envelope" aria-hidden="true" style="font-size: 36px;"></i></a>
+                    </div>
+    
+                    <div class="logo-nav-link-wrapper">
+                        <a href="https://www.linkedin.com/in/mcfadden-david/" target="_blank">
+                            <i class="fa fa-linkedin" aria-hidden="true" style="font-size: 36px;"></i></a>
+                    </div>
+                </div>
+                <div class="contact-info">
+                    <ul id="contact-list">
+                        <h2 style="color: black;">My Contact Information</h2>
+                        <li>Phone: <span>(281) 348-5837</span></li>
+                        <li>Email: <span>podll0711@gmail.com</span></li>
+    
+                    </ul>
+                </div>
+                <div class="right-side" style="padding-top: 50px; font-size: 20px;">
+                    <div>Software Engineer</div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+</html>

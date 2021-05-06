@@ -1,0 +1,191 @@
+/*Master Styles*/
+body{
+    font-family: "Alegreya", sans-serif;
+    margin: 0%;
+    
+    
+} /*The body's margin and font are being manipulated*/
+
+/* @viewport{
+    zoom: 1.0;
+    width: extend-to-zoom;
+}
+
+@-ms-viewport{
+    width: extend-to-zoom;
+    zoom: 1.0;
+} */
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}/*The container created in the .html files are for placement in a grid environment*/
+  
+  /* .ml-1 { */
+    /* margin-left: ($spacer * .25) !important;
+  }
+  
+  .px-2 {
+    padding-left: ($spacer * .5) !important;
+    padding-right: ($spacer * .5) !important;
+  }
+  
+  .p-3 {
+    padding: $spacer !important;
+  } */
+
+/* .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+} */
+
+/* .header-img {
+    width: 100%;
+    height: 20px;
+    background-image: url('/styles/space.jpg');
+    background-size: cover;
+  } */
+
+/*Navigation bar styles*/
+.nav-wrapper {
+    display: flex;/*Flex is to move the position of content side by side*/
+    justify-content: space-between;
+    padding: 38px;
+}
+
+.left-side {
+    display: flex;
+}
+
+.nav-wrapper > .left-side > div {
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+
+.nav-link-wrapper {
+    height:  22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+    border-bottom: 1px solid black;
+}
+
+.nav-link-wrapper a:hover {
+    color: black;
+}
+
+.active-nav-link {
+    border-bottom: 1px solid black;
+    text-decoration: none;
+}
+
+.active-nav-link a {
+    color: black !important;
+}
+
+
+/*Portfolio Styles*/
+
+.portfolio-items-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;/*2x 1fr gives each element one unit of of space in the grid of columns which
+    creates 2 columns*/
+}
+
+.portfolio-item-wrapper {
+    position: relative;
+}
+
+.portfolio-img-background {
+    height: 600px;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-text-wrapper {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.logo-wrapper img {
+    width: 35%;
+    margin-bottom: 20px;
+}
+
+.img-text-wrapper .subtitle {
+    transition: 1s;
+    font-weight: 600;
+    color: transparent;
+}
+.img-text-wrapper:hover .subtitle {
+    font-weight: 600;
+    color: red;
+}
+
+.img-darken {
+    transition: 1s;
+    filter: brightness(10%);
+}
+
+.two-column-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.profile-image-wrapper img {
+    width: 100%;
+}
+
+.profile-content-wrapper {
+    padding: 30px;
+}
+
+.profile-content-wrapper h1{
+    color: lightseagreen;
+}
+
+/*Mccareer page*/
+
+.background-wrapper {
+    position: relative;
+}
+
+.logo-nav-link-wrapper {
+    height:  22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.logo-nav-link-wrapper a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.logo-nav-link-wrapper a:hover {
+    color: black;
+}
+
+

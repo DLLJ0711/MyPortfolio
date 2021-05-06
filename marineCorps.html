@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+<title>David's Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device width, initial-scale=1.0">
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/bootstrap-responsive.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>h1,h2,h3,h4,h5,h6 {
+        font-family: "Oswald"
+    }
+
+    body {
+        font-family: "Open Sans"
+    }
+    .logo-nav-link-wrapper {
+        display: inline;
+        padding-right: 2px;
+        height:  22px;
+        border-bottom: 1px solid transparent;
+        transition: border-bottom 0.5s;
+    }
+
+    .logo-nav-link-wrapper a {
+        color: black;
+        text-decoration: none;
+        transition: color 0.5s;
+    }
+    
+    .logo-nav-link-wrapper a:hover {
+        color: #8a8a8a;
+    }
+
+</style>
+
+<body class="w3-light-grey">
+
+    <!-- Navigation bar with social media icons -->
+    <div class="w3-bar w3-black w3-hide-small">
+        <a href="index.html" class="w3-bar-item w3-button">Home</i></a>
+        <a href="about.html" class="w3-bar-item w3-button">About</i></a>
+        <a href="myResume.html" class="w3-bar-item w3-button">Resume</i></a>
+    </div>
+
+    <!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+    <div class="w3-content" style="max-width:1600px">
+
+        <!-- Header -->
+        <header class="w3-container w3-center w3-padding-48 w3-white">
+            <h1 class="w3-xxxlarge"><b>My Marine Corps Career</b></h1>
+            <h6>Welcome to My <span class="w3-tag">MARINE CORPS</span>Life</h6>
+        </header>
+
+        <!-- Image header -->
+        <header class="w3-display-container w3-wide" id="home">
+            <img class="w3-image" src="IMG-0184.JPG" alt="Fashion Blog" width="1600" height="1060">
+            <div class="w3-display-left w3-padding-large">
+                <h1 class="w3-text-white">THE FEW</h1>
+                <h1 class="w3-jumbo w3-text-white w3-hide-small"><b>THE PROUD</b></h1>
+                <h6><button class="w3-button w3-white w3-padding-large w3-large w3-opacity w3-hover-opacity-off">
+                    <a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwi29b_z-K_wAhW3bG8EHRMOCygYABAAGgJqZg&ohost=www.google.com&cid=CAESQeD2amTuwNG_HpzXIqd9ygtS1D43j7avTq2xyYuhU2FUvlDzEf6Eyd4GHrD4wsGwGxl6JPQJrh642UVV-F5ZMlxz&sig=AOD64_1j21MqJLjZHBWKSlSCjL7erFVMCA&q&adurl&ved=2ahUKEwiVyrTz-K_wAhUBbs0KHcHFBiMQ0Qx6BAgEEAE" style="text-decoration: none;">
+                        THE MARINES</a></button></h6>
+            </div>
+        </header>
+
+        <!-- Grid -->
+        <div class="w3-row w3-padding w3-border">
+
+            <!-- Blog entries -->
+            <div class="w3-col l8 s12">
+
+                <!-- Blog entry -->
+                <div class="w3-container w3-white w3-margin w3-padding-large">
+                    <div class="w3-center">
+                        <h3>Honorably Served</h3>
+                        <h5>August 11, 2002 -  Septemper 9, 2014</span></h5>
+                    </div>
+
+                    <div class="w3-justify">
+                        <img src="IMG-0189.JPG" alt="Girl Hat" style="width:100%" class="w3-padding-16">
+                        <p> I served in the nations most powerful fighting force for 12 years.
+                            While serving I completed 3 combat tours serving in muliple areas acros Kuwait and Iraq.  While
+                            serving both foreign and domestically I held multiple billets from secruity, supply chain, logistics
+                            and completing my time as a United States Marine Corps Drill Instructor.  While I both hated and enjoyed
+                            difficult and heart wamring times as an active duty Marine, I have to say earn the of Drill Instructor was 
+                            was one of my proudest moments. Marines are known to be tough, however, not until I became a Drill
+                            Instructor, did I find out what the human body, mind and spirit is actually capable. During my time as an
+                            active duty Marine I developed relationships that will last a lifetime and probably longer. I was inspired by
+                            and idolized some of the greatest people on earth.  I am proud to be a Marine because it defines everythin I stand for
+                            I wouldn't change anything if I could. Semper Fidelis.</p>
+                        <p>My awards include: Presidential Unit Citation, 3 Navy & Marine Corps Achievment Medals,
+                            Navy Unit Citation, 3 Good Conduct Medals, 6 Iraqi Campaign Medals, Global War On Terrorism Medal</p>
+                        <p class="w3-left"><button class="w3-button w3-white w3-border"
+                                onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+                        <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')"
+                                id="myBtn"><b>Replies  </b> <span class="w3-tag w3-white">0</span></button></p>
+                        <p class="w3-clear"></p>
+                    </div>
+                </div>
+                <hr>
+
+                <!-- Blog entry -->
+                <div class="w3-container w3-white w3-margin w3-padding-large">
+                    <div class="w3-center">
+                        <h3>Promotion Warrant</h3>
+                        <h5>Promotion to Staff Sergeant Feb 1, 2012</span></h5>
+                    </div>
+
+                    <div class="w3-justify">
+                        <img src="chevron.jpeg" alt="Staff Sergeant Chevron" style="width:10%" class="w3-padding-16">
+                        <p>To all who shall see these presents, greetings:</p>
+                        <p>Know Ye, that repsoing special trust and confidence in the fidelity and abilities of
+                            David R. McFadden, I do appoint this Marine a Staff Sergeant in the United States Marine Corps,
+                            to ranks as such from the First day of February, 2012.  Effective with this appointment, you are charged
+                            to carefully and diligently execute the duties and responsibilities of a Staff Sergeant of Marines, and
+                            I do strictly direct and require all personnel of lesser greade to render obedience to appropriate
+                            orders.  As a Staff Sergeant of Marines you must set the example for other to emulate.  Your conduct
+                            and professionalism both on and off duty shall be above reproach.  You are responsible for the accomplishment
+                            of your assigned mission and for the safety, professional developement and well-being of the Marines in your 
+                            charge.  You will be the embodiment of our institutional core values of honor, courage and commiment.
+                            You will lead your Marines  with firmness, fairness and diginity while observing and following the orders 
+                            and directives of you senior leaders and enforcing all regulations and articles governing the disciplince of
+                            the Armed Forces of the United States of America.  
+                            Signed First day of February L. Reynolds, Brigadere General, USMC Commanding</p>
+                        <p class="w3-left"><button class="w3-button w3-white w3-border"
+                                onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+                        <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo2')"><b>Replies
+                                     </b> <span class="w3-tag w3-white">0</span></button></p>
+                        <p class="w3-clear"></p>
+
+                        <!-- Example of comment field
+                        <div id="demo2" style="display:none">
+                            <div class="w3-row">
+                                <hr>
+                                <div class="w3-col l2 m3">
+                                    <img src="/w3images/girl_train.jpg" style="width:90px;">
+                                </div>
+                                <div class="w3-col l10 m9">
+                                    <h4>Amber <span class="w3-opacity w3-medium">April 26, 2015, 10:52 PM</span></h4>
+                                    <p>Love your blog page! Simply the best! Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                        aliqua.</p><br>
+                                </div>
+                            </div>
+                            <div class="w3-row w3-margin-bottom">
+                                <div class="w3-col l2 m3">
+                                    <img src="/w3images/girl.jpg" style="width:90px;">
+                                </div>
+                                <div class="w3-col l10 m9">
+                                    <h4>Angie <span class="w3-opacity w3-medium">April 23, 2015, 9:12 PM</span></h4>
+                                    <p>Love hats!!</p>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+
+                <!-- Blog entry -->
+                <div class="w3-container w3-white w3-margin w3-padding-large">
+                    <div class="w3-center">
+                        <h3>Family</h3>
+                        <h5>Is how I survived</h5>
+                    </div>
+
+                    <div class="w3-justify">
+                        <img src="IMG-0177.JPG" alt="Runway" style="width:50%" class="w3-padding-16">
+                        <p><strong>Family</strong> Family is how I survived tough times in the Marine Corps
+                        </p>
+                        <p>Throughout my time in the Marine Corps, there were many times where upholding the highest standards
+                            of never quitting or giving up became challenging. Without my family and the family I've made in 
+                            in the Marine Corps, raw strength would have not been enough.  My daughters; A'Santi, A'Nya, A'Ria
+                            and A'Mila and my Brother and his family have been my rock while in the Marine Corps and today.
+                            For that I will forever be grateful and no amount of words could explain how much I love them.</p>
+                        <p class="w3-left"><button class="w3-button w3-white w3-border"
+                                onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+                        <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo3')"><b>Replies
+                                     </b> <span class="w3-tag w3-white"></span>0</button></p>
+                        <p class="w3-clear"></p>
+
+                        <!-- Example of comment field -->
+                        <div id="demo3" style="display:none">
+                            <hr>
+                            <div class="w3-row w3-margin-bottom">
+                                <div class="w3-col l2 m3">
+                                    <img src="/w3images/girl_mountain.jpg" style="width:90px;">
+                                </div>
+                                <div class="w3-col l10 m9">
+                                    <h4>Jane <span class="w3-opacity w3-medium">April 10, 2015, 7:22 PM</span></h4>
+                                    <p>That was a great runway show! Thanks for everything.</p>
+                                </div>
+                            </div>
+                            <div class="w3-row w3-margin-bottom">
+                                <div class="w3-col l2 m3">
+                                    <img src="/w3images/boy.jpg" style="width:90px;">
+                                </div>
+                                <div class="w3-col l10 m9">
+                                    <h4>John <span class="w3-opacity w3-medium">April 8, 2015, 10:32 PM</span></h4>
+                                    <p>Keep up the GREAT work! I am cheering for you!! Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                                </div>
+                            </div>
+                            <div class="w3-row w3-margin-bottom">
+                                <div class="w3-col l2 m3">
+                                    <img src="/w3images/girl_hood.jpg" style="width:90px;">
+                                </div>
+                                <div class="w3-col l10 m9">
+                                    <h4>Anja <span class="w3-opacity w3-medium">April 7, 2015, 9:12 PM</span></h4>
+                                    <p>Cant wait for the runway to start!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- END BLOG ENTRIES -->
+            </div>
+
+            <!-- About/Information menu -->
+            <div class="w3-col l4">
+                <!-- About Card -->
+                <div class="w3-white w3-margin">
+                    <img src="/images (1).jpeg" alt="Marines" style="width:100%" class="w3-grayscale">
+                    <div class="w3-container w3-black">
+                        <h4>Staff Sergeant McFadden</h4>
+                        <p>A Marine is one who posses the Highest military virtue. He/She strives to be the best at everything they do.
+                            A Marine never quits or gives up. A Marine works their hardest to strenthen their body, spirit and mind.
+                            I am that Marine! Semper Fidelis.</p>
+                    </div>
+                </div>
+                <hr>
+
+                <!-- Posts -->
+                <div class="w3-white w3-margin">
+                    <div class="w3-container w3-padding w3-black">
+                        <h4>Marine Corps Maritial Arts</h4>
+                    </div>
+                    <ul class="w3-ul w3-hoverable w3-white">
+                        <li class="w3-padding-16">
+                            <img src="mcmap.jpeg" alt="Image" class="w3-left w3-margin-right"
+                                style="width:100px; height: 60px;">
+                            <span class="w3-large">Highest Belt Achieved</span>
+                            <br>
+                            <span>Black Belt 2008</span>
+                        </li>        
+                    </ul>
+                </div>
+                <hr>
+
+                <!-- Tags -->
+                <div class="w3-white w3-margin">
+                    <div class="w3-container w3-padding w3-black">
+                        <h4>Tags</h4>
+                    </div>
+                    <div class="w3-container w3-white">
+                        <p>
+                            <div class="military-tags">
+                                <span class="w3-tag w3-black w3-margin-bottom">Military</span> 
+                                <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">
+                                <a href="https://rmi.marines.com/request-information/G_Core_Exact?gclid=Cj0KCQjwp86EBhD7ARIsAFkgakghA3344uj85UOlQzC_eau5pmiBhwS2RAsE8SipLzyPEnnUzlWC_KYaArHsEALw_wcB&gclsrc=aw.ds" style="text-decoration: none;" target="_blank">Marine Corps</a> </span> 
+                                <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">
+                                <a href="https://www.goarmy.com/" style="text-decoration: none;" target="_blank">Army</a></span>
+                                <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">
+                                <a href="https://www.navy.com/start?activity=1228855&cid=ppc_gg_b_stan_core&gclid=Cj0KCQjwp86EBhD7ARIsAFkgakj7-EZnAHazLq2CFiKvK_EzH1YdsJLtgzZyKc4qdG37qmbG4AVte9IaAq1pEALw_wcB&gclsrc=aw.ds" style="text-decoration: none;" target="_blank">Navy</a></span> 
+                                <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">
+                                <a href="https://www.airforce.com/?gclid=Cj0KCQjwp86EBhD7ARIsAFkgakgp_4QiNGLciDYU0zGcvhs1Zwy6J8FttzKuiYY8slQ6WDS1NqHf3UwaAoY1EALw_wcB&gclsrc=aw.ds" style="text-decoration: none;" target="_blank">Air Force</a></span> 
+                                <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">
+                                <a href="https://www.gocoastguard.com/Careers?gclid=Cj0KCQjwp86EBhD7ARIsAFkgakhFIws7BBWiisodJRkXuBQtArNFa342_xabyGsSXQ_oJtvavjQTH1IaAllUEALw_wcB" style="text-decoration: none;" target="_blank">Coast Guard</a></span>
+                                <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">
+                                <a href="https://www.nationalguard.com/hometown?utm_campaign=nggpaidsearch&utm_source=89&utm_medium=googlebrand&utm_content=web&gclid=Cj0KCQjwp86EBhD7ARIsAFkgakgGqCMbDZYdbS-sX0-I0KrfXINo4aIL9R6M-Rkl6XBOIOgtUsO6PUcaAtacEALw_wcB&gclsrc=aw.ds" style="text-decoration: none;" target="_blank">National Guard</a></span>               
+                            </div>
+                        </p>
+                    </div>
+                </div>
+                <hr>
+
+                <!-- Inspiration -->
+                <div class="w3-white w3-margin">
+                    <div class="w3-container w3-padding w3-black">
+                        <h4>Inspirations</h4>
+                    </div>
+                    <div class="w3-row-padding w3-white">
+                        <div class="w3-col s6">
+                            <p>Master Sergeant Amesuca</p>
+                            <p>Sergeant Major Newcomb</p>
+                        </div>
+                        <div class="w3-col s6">
+                            <p>Sergeant Major Archie</p>
+                            <p>Staff Sergeant Murchison (deceased)</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="w3-white w3-margin">
+                    <div class="w3-container w3-padding w3-black">
+                        <h4>Follow Me</h4>
+                    </div>
+                    <div class="logo-nav-link-wrapper">
+                        <a href="https://www.facebook.com/david.mcfadden.58" target="_blank">
+                            <i class="fa fa-facebook-official" style="font-size:26px;"></i></a>
+                    </div>
+    
+                    <div class="logo-nav-link-wrapper">
+                        <a href="https://github.com/DLLJ0711" target="_blank">
+                            <i class="fa fa-github" style="font-size:26px"></i></a>
+                    </div>
+    
+                    <div class="logo-nav-link-wrapper">
+                        <a href="mailto:podll0711@gmail.com?subject=subject text" target="_blank">
+                            <i class="fa fa-envelope" aria-hidden="true" style="font-size: 26px;"></i></a>
+                    </div>
+    
+                    <div class="logo-nav-link-wrapper">
+                        <a href="https://www.linkedin.com/in/mcfadden-david/" target="_blank">
+                            <i class="fa fa-linkedin" aria-hidden="true" style="font-size: 26px;"></i></a>
+                    </div>
+                </div>
+                <hr>
+
+
+                <!-- END About/Intro Menu -->
+            </div>
+
+            <!-- END GRID -->
+        </div>
+
+        <!-- END w3-content -->
+    </div>
+
+    <!-- Subscribe Modal -->
+    <div id="subscribe" class="w3-modal w3-animate-opacity">
+        <div class="w3-modal-content" style="padding:32px">
+            <div class="w3-container w3-white">
+                <i onclick="document.getElementById('subscribe').style.display='none'"
+                    class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
+                <h2 class="w3-wide">SUBSCRIBE</h2>
+                <p>Join my mailing list to receive updates on the latest blog posts and other things.</p>
+                <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
+                <button type="button" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom"
+                    onclick="document.getElementById('subscribe').style.display='none'">Subscribe</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-container w3-dark-grey" style="padding:32px">
+        <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i
+                class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+    </footer>
+
+    <script>
+        // Toggle between hiding and showing blog replies/comments
+        document.getElementById("myBtn").click();
+        function myFunction(id) {
+            var x = document.getElementById(id);
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+
+        function likeFunction(x) {
+            x.style.fontWeight = "bold";
+            x.innerHTML = "✓ Liked";
+        }
+    </script>
+
+</body>
+
+</html>
